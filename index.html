@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Forms Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bruh">
+        <!-- <img src="./images/funnyFace.png" alt="picture of a funny face." id="funnyFace"> -->
+        <form>
+            <legend>Enter the following to create an account: </legend><br>
+            
+            <!-- This is the name   DONE. -->
+            <label for="formName">Name:</label>
+            <input type="text" id="formName" name="formName" min="5" max="50" required><br><br>
+
+            <!-- This is the password   DONE. -->
+            <label for="pWord">Password:</label>
+            <input type="text" name="pWord" id="pWord" min="6" max="15" required><br><br>
+
+            <!-- This is the email   DONE. -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" min="6" max="15"><br><br>
+
+            <!-- The is the "about me"    DONE.  -->
+            <label for="aboutMe">About Me:</label>
+            <textarea name="aboutMe" id="aboutMe" maxlength="250"></textarea><br><br>
+        
+            <!-- This is the robot check -->
+            <label for="robotCheck">Please Type: <strong>I aM a hOOmaN.</strong></label>
+            <input type="text" name="robotCheck" id="robotCheck" pattern="I aM a hOOmaN."><br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!-- 
+Create a sign up form with the following fields and validations.
+
+field AND  validation
+name:   required, minimum length: 5   DONE
+
+password:   required, minimum length: 6, maximum length: 15     DONE
+
+
+email:   	required, email format   DONE
+
+
+about me:   textarea, maximum length: 250   DONE
+
+
+robot check:   required, should match a pattern of text   
+ -->
+
+

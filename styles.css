@@ -1,0 +1,26 @@
+
+
+
+.bruh {
+   border: 2px solid black; 
+   background-image: url(./images/funnyFace.png);
+
+
+
+}
+
+.bruh > * {
+    /* border: 1px solid red; */
+    margin: 10px;;
+}
+
+label {
+    background-color: black;
+    color: white;
+}
+
+legend {
+    color: white;
+    background-color: black;
+    margin-right: 273px;
+}
